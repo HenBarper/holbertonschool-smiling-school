@@ -18,8 +18,9 @@
     opacity: 50%;
 }
 
-body {
-    /* text-align: center; */
+/* FONT SIZE */
+.px14 {
+    font-size: 14px;
 }
 
 /* BANNER */
@@ -28,6 +29,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+#menu-toggle, #toggle-label{
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+#toggle-label {
+    display: block;
+}
+#toggle-content {
+    display: none;
+}
+#menu-toggle:checked + label + #toggle-content {
+    display: flex !important;
+    text-align: center !important;
+    flex-direction: column !important;
 }
 .big-text{
     font-size: 4rem;
@@ -50,11 +68,11 @@ body {
     white-space: nowrap;
 }
 
-/* TABLET SIZE */
+/* DESKTOP SIZE */
 @media (min-width: 768px) {
 
 }
- /* PHONE SIZE */
+ /* TABLET SIZE */
 @media (min-width: 576px) {
     .big-text{
         font-size: 7rem;
@@ -62,5 +80,11 @@ body {
         padding-top: 15rem;
         margin-top: 0px;
         margin-bottom: 0px;
+    }
+    #menu-toggle, #toggle-label{
+        display: none;
+    }
+    .small-only {
+        display: none;
     }
 }
