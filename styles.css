@@ -18,9 +18,49 @@
     opacity: 50%;
 }
 
+body {
+    /* text-align: center; */
+}
+
 /* BANNER */
 .top-image{
     background-image: url('images/Banner_BG.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+.big-text{
+    font-size: 4rem;
+    font-weight: 700;
+    padding-top: 15rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.register-button{
+    width: 162px;
+    height: 44px;
+    background-image: url('images/Register_Button.png');
+    cursor: pointer;
+    border: none;
+}
+.circle-photo {
+    border-radius: 90%;
+}
+.no-truncate {
+    white-space: nowrap;
+}
+
+/* TABLET SIZE */
+@media (min-width: 768px) {
+
+}
+ /* PHONE SIZE */
+@media (min-width: 576px) {
+    .big-text{
+        font-size: 7rem;
+        font-weight: 700;
+        padding-top: 15rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
 }
