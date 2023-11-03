@@ -1,0 +1,26 @@
+/* COLORS */
+.purple-bg {
+    background-color: #C271FF;
+}
+.purple-text {
+    color: #C271FF;
+}
+.white-text {
+    color: #FFFFFF;
+}
+.navy-bg {
+    background-color: #071629;
+}
+.navy-text {
+    color: #071629;
+}
+.opacity-text {
+    opacity: 50%;
+}
+
+/* BANNER */
+.top-image{
+    background-image: url('images/Banner_BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
