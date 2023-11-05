@@ -18,9 +18,29 @@
     opacity: 50%;
 }
 
+/* FONTS */
+@font-face {
+    font-family: 'SSP';
+    src: url('fonts/SourceSansPro-Black.otf') format('opentype');
+    
+    font-family: 'SSP2';
+    src: url('fonts/SourceSansPro-Light.otf') format('opentype');
+}
+
 /* FONT SIZE */
+.px16 {
+    font-size: 16px;
+    font-family: 'SSP2', sans-serif;
+}
 .px14 {
     font-size: 14px;
+}
+.px12 {
+    font-size: 12px;
+}
+
+body {
+    font-family: 'SSP', sans-serif;
 }
 
 /* BANNER */
@@ -47,6 +67,10 @@
     text-align: center !important;
     flex-direction: column !important;
 }
+.header-links-div, a{
+    text-decoration: none;
+    color: white;
+}
 .big-text{
     font-size: 4rem;
     font-weight: 700;
@@ -60,6 +84,7 @@
     background-image: url('images/Register_Button.png');
     cursor: pointer;
     border: none;
+    white-space: nowrap;
 }
 .circle-photo {
     border-radius: 90%;
@@ -84,7 +109,28 @@
     #menu-toggle, #toggle-label{
         display: none;
     }
+    #toggle-content {
+        display: block;
+    }
     .small-only {
         display: none;
+    }
+    .header-links {
+        display: flex;
+        align-items: end;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-links {
+        flex: 1;
+        text-align: left;
+    }
+    .links-links {
+        flex: 1;
+        text-align: right;
+    }
+    .links-links, a {
+        margin-left: 2rem;
     }
 }
