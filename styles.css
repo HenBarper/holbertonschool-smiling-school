@@ -115,6 +115,16 @@ body {
 .foot-row {
     width: 90%;
 }
+.foot-logo {
+    margin-top: 2rem;
+}
+.foot-links {
+    margin-top: 2rem;
+}
+.foot-copyright {
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+}
 
  /* TABLET SIZE */
 @media (min-width: 576px) {
@@ -156,26 +166,26 @@ body {
 
     /* MEMBERSHIPS */
     .member-text {
-        width: 50% !important;
+        width: 100% !important;
     }
 
     /* FOOTER */
     .foot-logo {
         text-align: left !important;
+        margin-top: 4rem;
     }
     .foot-links {
         text-align: right !important;
+        margin-top: 4rem;
+    }
+    .foot-copyright {
+        margin-top: 4rem;
     }
 }
 
 /* DESKTOP SIZE */
 @media (min-width: 768px) {
-    /* MEMBERSHIPS */
-    .member-text {
-        width: 100% !important;
-        /* margin-left: 0 !important;
-        margin-right: 0 !important; */
-    }
+    /* FOOTER */
     .foot-row {
         width: 80%;
     }
