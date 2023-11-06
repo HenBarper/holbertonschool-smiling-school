@@ -28,6 +28,9 @@
 }
 
 /* FONT SIZE */
+.px18 {
+    font-size: 18px;
+}
 .px16 {
     font-size: 16px;
     font-family: 'SSP2', sans-serif;
@@ -86,6 +89,10 @@ body {
     border: none;
     white-space: nowrap;
 }
+.learn-pros {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+}
 .circle-photo {
     border-radius: 90%;
 }
@@ -93,12 +100,25 @@ body {
     white-space: nowrap;
 }
 
-/* DESKTOP SIZE */
-@media (min-width: 768px) {
+/* QUOTES */
 
+/* MOST POPULAR VIDS */
+
+/* MEMBERSHIP */
+.member-text {
+    width: 50%;
 }
+
+/* LATEST VIDEOS */
+
+/* FOOTER */
+.foot-row {
+    width: 90%;
+}
+
  /* TABLET SIZE */
 @media (min-width: 576px) {
+    /* BANNER */
     .big-text{
         font-size: 7rem;
         font-weight: 700;
@@ -132,5 +152,31 @@ body {
     }
     .links-links, a {
         margin-left: 2rem;
+    }
+
+    /* MEMBERSHIPS */
+    .member-text {
+        width: 50% !important;
+    }
+
+    /* FOOTER */
+    .foot-logo {
+        text-align: left !important;
+    }
+    .foot-links {
+        text-align: right !important;
+    }
+}
+
+/* DESKTOP SIZE */
+@media (min-width: 768px) {
+    /* MEMBERSHIPS */
+    .member-text {
+        width: 100% !important;
+        /* margin-left: 0 !important;
+        margin-right: 0 !important; */
+    }
+    .foot-row {
+        width: 80%;
     }
 }
