@@ -26,6 +26,12 @@
     font-family: 'SSP2';
     src: url('fonts/SourceSansPro-Light.otf') format('opentype');
 }
+.font-1 {
+    font-family: 'SSP', sans-serif;
+}
+.font-2 {
+    font-family: 'SSP2', sans-serif;
+}
 
 /* FONT SIZE */
 .px18 {
@@ -33,7 +39,6 @@
 }
 .px16 {
     font-size: 16px;
-    font-family: 'SSP2', sans-serif;
 }
 .px14 {
     font-size: 14px;
@@ -101,6 +106,10 @@ body {
 }
 
 /* QUOTES */
+.quote-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 
 /* MOST POPULAR VIDS */
 
@@ -110,6 +119,25 @@ body {
 }
 
 /* LATEST VIDEOS */
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img2 {
+    position: absolute;
+    top: 45px;
+    left: 50vw;
+    transform: translateX(-50%);
+}
+.tiny-pic {
+    width: 30px;
+}
 
 /* FOOTER */
 .foot-row {
