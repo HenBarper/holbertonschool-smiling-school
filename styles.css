@@ -25,6 +25,9 @@
     
     font-family: 'SSP2';
     src: url('fonts/SourceSansPro-Light.otf') format('opentype');
+
+    font-family: 'coiny';
+    src: url('fonts/Coiny/Coiny-Regular.ttf');
 }
 .font-1 {
     font-family: 'SSP', sans-serif;
@@ -32,8 +35,20 @@
 .font-2 {
     font-family: 'SSP2', sans-serif;
 }
+.coiny-font {
+    font-family: 'coiny', sans-serif;
+}
 
 /* FONT SIZE */
+.px64 {
+    font-size: 64px;
+}
+.px44 {
+    font-size: 44px;
+}
+.px32 {
+    font-size: 32px;
+}
 .px18 {
     font-size: 18px;
 }
@@ -45,6 +60,10 @@
 }
 .px12 {
     font-size: 12px;
+}
+
+.no-border {
+    border: none;
 }
 
 body {
@@ -104,6 +123,7 @@ body {
     margin-top: 8rem;
     margin-bottom: 6rem;
 }
+
 .circle-photo {
     border-radius: 90%;
 }
